@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="structs\checksum_md5.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Createmove.cpp">
+      <Filter>Hooks\Createmove</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvents.cpp">
+      <Filter>Hooks\Game events</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Hooks\Framestage Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="BacktrackingHelper.cpp">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Hooks\Createmove\Autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>Hooks\Drawmodel Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Hooks\Override View</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictionSystem.cpp">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTrace.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger_bot.cpp">
+      <Filter>Hooks\Createmove\Legitbot\triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="helping.cpp">
+      <Filter>Hooks\Createmove\Legitbot\triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginFrame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpread.cpp">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Hooks\Endscene\Render manger</Filter>
+    </ClCompile>
+    <ClCompile Include="freestand autowall.cpp">
+      <Filter>Hooks\Createmove\Autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="legitbot.cpp">
+      <Filter>Hooks\Createmove\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="backtrackmanager.cpp">
+      <Filter>Hooks\Createmove\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Hooks\Endscene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\dx9\imgui_dx9.cpp">
+      <Filter>ImGUI\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="draw.cpp">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUtils.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="FixMove.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialHelper.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AW_hitmarker.cpp">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinchanger.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GloveChanger.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Extrapolation.cpp">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structs\angle.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\basecombatweapon.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\bspflags.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\baseentity.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\CGlow.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\checksum_md5.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\client.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\cliententlist.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\clientrecvprops.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\clientmodeshared.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\convar.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\crc32.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\GameEvents.h">
+      <Filter>Hooks\Game events</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="BacktrackingHelper.h">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Hooks\Createmove\Autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\Prediction.h">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictionSystem.h">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\dt_common2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\vmatrix.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\vector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\usercmd.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\trace.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoofedConvar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="sse69.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\surface.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\physics.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\playerinfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\quaternion.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\modelinfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\msg.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\panel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\materials.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\input.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\enginevgui.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\firebullet.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\dt_recv2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\engine.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\debugoverlay.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="helping.hpp">
+      <Filter>Hooks\Createmove\Legitbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="event_log.h">
+      <Filter>Hooks\Game events</Filter>
+    </ClInclude>
+    <ClInclude Include="NoSpread.h">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffects.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="borg.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Hooks\Endscene\Render manger</Filter>
+    </ClInclude>
+    <ClInclude Include="freestand autowall.h">
+      <Filter>Hooks\Createmove\Autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="legitbot.h">
+      <Filter>Hooks\Createmove\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="backtrackmanager.h">
+      <Filter>Hooks\Createmove\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Antiaim.h">
+      <Filter>Hooks\Createmove\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="knifebot.h">
+      <Filter>Hooks\Createmove\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientVariables.h">
+      <Filter>Hooks\Endscene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\dx9\imgui_dx9.h">
+      <Filter>ImGUI\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Hooks\Drawmodel Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtils.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="FixMove.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialHelper.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\globals.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\offsets.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="AW_hitmarker.h">
+      <Filter>Hooks\Paint traverse</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Hooks\Endscene</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinchanger.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="glovefix.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GloveChanger.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Extrapolation.h">
+      <Filter>Hooks\Createmove\Prediction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{76de139b-878a-4716-a6fa-53cb07698a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\structs">
+      <UniqueIdentifier>{8a972f70-4df7-471f-8b40-ce019c5c4b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{170fabd6-bcc5-4425-b1a5-50bb8ba3ff91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove">
+      <UniqueIdentifier>{66709ae3-31d9-4f14-89c5-950531de7fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Paint traverse">
+      <UniqueIdentifier>{99158099-91f2-426e-9f5f-37dd4370f46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Game events">
+      <UniqueIdentifier>{0ae33a39-6926-4360-8407-31a8e4100ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Endscene">
+      <UniqueIdentifier>{973fe60f-773f-4c6c-bea2-f066a0ac73b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Override View">
+      <UniqueIdentifier>{dd636847-0c53-40bb-8cb2-97e4a74de8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Ragebot">
+      <UniqueIdentifier>{732e8454-4b2b-486f-8aeb-7d5fc1054a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Legitbot">
+      <UniqueIdentifier>{31c4ddfe-1aaa-422e-9b4a-27ddbaaf1cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Prediction">
+      <UniqueIdentifier>{eb1ea1d5-dc00-4fa2-a2f9-47cca05c75fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Legitbot\triggerbot">
+      <UniqueIdentifier>{c6124bb8-6d43-4a9a-894c-bdbcc4830011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Drawmodel Execute">
+      <UniqueIdentifier>{feaae198-0f57-4af8-97c2-750fa7e2af96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Antiaim">
+      <UniqueIdentifier>{46b7cd03-42c9-4a84-9929-1518ebdd1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Framestage Notify">
+      <UniqueIdentifier>{b58a7f59-f801-45ef-b492-1c648248fdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Endscene\Render manger">
+      <UniqueIdentifier>{1974e1c2-299e-48d3-a60a-6238e3681382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Createmove\Autowall">
+      <UniqueIdentifier>{348f5ac6-1250-4892-be6b-c70c6aea8ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{9efa65f5-1e29-45bf-970f-a828a8d7d8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\dx9">
+      <UniqueIdentifier>{7ccbcdd5-165a-4cd7-9994-b73c1a1f2aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{264198fd-2bc9-4717-bcd7-401380ef75df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
