@@ -3,6 +3,12 @@
 class CAntiaim
 {
 public:
+	/*struct global
+	{
+		int lowerbodyChangedCount;
+		bool LBYUpdate;
+	}global[64];
+	void lbybreaker(CUserCmd * pCmd, CBaseEntity * entity);*/
 	bool choke;
 	bool is_viable_target(CBaseEntity * pEntity);
 	void SetSpeed(int speed);
